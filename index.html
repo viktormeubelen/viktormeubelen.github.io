@@ -12,6 +12,20 @@
 
     <title>Meubelen op Maat, Ingebouwde Kasten en Algemene Schrijnwerkerij</title>
 
+	<!-- Google Analytics -->
+	<!-- This code should be added near the top of the <head> tag
+	     and before any other script or CSS tags -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90674996-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -43,6 +57,8 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <link href="css/bootstrap-social.css" rel="stylesheet">
 
     <!-- Gallery -->
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
@@ -85,10 +101,34 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Viktor Meubelen</h1>
-            <h3>Snel en Kwaliteitsvol</h3>
-            <br>
-            <a href="#about" class="btn btn-default btn-lg">Over mij</a>
+            <h1>Viktor Meubelen<br><small style="background-color: white">Snel en Kwaliteitsvol</small></h1>
+            <h3></h3>
+            <div>
+	            <a href="tel:+32488229995" title="Bel" class="btn btn-success btn-lg">
+	            	<span class="glyphicon glyphicon-earphone" style="padding-left:10px; padding-right:10px;"></span>
+	            	<br>Bel
+	            </a>
+	            &nbsp;
+	            <a href="mailto:viktor@viktormeubelen.be" title="Mail" class="btn btn-success btn-lg">
+	            	<span class="glyphicon glyphicon-envelope" style="padding-left:10px; padding-right:10px;"></span>
+	            	<br>Mail
+	            </a>
+	            &nbsp;
+	            <a href="#about" class="btn btn-info btn-lg" title="Ontdek meer">
+	            	<span class="glyphicon glyphicon-search" style="padding-left:10px; padding-right:10px;"></span>
+	            	<br>Ontdek
+	            </a>
+	            <div style="padding-top: 2em;">
+					<a href="https://www.facebook.com/viktormeubelen/" class="btn btn-social btn-facebook btn-lg">
+						<span class="fa fa-facebook"></span> Vertel je vrienden over mij
+					</a>
+				</div>
+<!-- 	            <div style="padding-top: 1em;">
+					<a href="" class="btn btn-social btn-google btn-lg">
+						<span class="fa fa-google"></span> Laat een reactie achter
+					</a>
+				</div> -->
+			</div>
         </div>
     </header>
 
@@ -133,10 +173,11 @@
                         <ol class="indicator"></ol>
                     </div>
                     <div id="links" style="display:none;">
-                        <a href="img/portfolio-1.jpg" title="Titel 1"></a>
-                        <a href="img/portfolio-2.jpg" title="Titel 2"></a>
-                        <a href="img/portfolio-3.jpg" title="Titel 3"></a>
-                        <a href="img/portfolio-4.jpg" title="Titel 4"></a>
+                        <a href="img/portfolio-1.jpg" title="Een decoratief paneel verbergt de verwarmingsbuizen én laat het warme lucht door"></a>
+                        <a href="img/portfolio-2.jpg" title="Een terras aanleggen"></a>
+                        <a href="img/portfolio-3.jpg" title="Een balkon renoveren"></a>
+                        <a href="img/portfolio-4.jpg" title="Een antieke zetel restaureren"></a>
+                        <a href="img/portfolio-5.jpg" title="Een ingebouwde kast maakt een opbergplaats van uwe zolder met schuin dak"></a>
                     </div>
                     <a href="#contact" class="btn btn-default btn-lg">Contact</a>
                     <!-- /.row (nested) -->
@@ -149,14 +190,8 @@
         <!-- /.container -->
     </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.485151210354!2d4.303772688149815!3d51.16488439871751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f3751dc73453%3A0x82be960ef10cdf5d!2sAdolf+Daensstraat+10%2C+9150+Kruibeke!5e0!3m2!1snl!2sbe!4v1449486306910" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <!--iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.804853978016!2d4.3041043000000075!3d51.16516250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f2f7347d418f%3A0x5c13d42b2983787b!2sAdolf+Daensstraat+10%2C+9150+Kruibeke%2C+Belgium!5e0!3m2!1sen!2s!4v1431114602105"></iframe-->
-    </section>
-
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
